@@ -1,3 +1,5 @@
+<!-- cspell:ignore nuspell nvim treesitter -->
+
 # null-ls-typo-fix
 
 A [`null-ls`](https://github.com/jose-elias-alvarez/null-ls.nvim) code action source for fixing typos via [`lua-nuspell`](https://github.com/f3fora/lua-nuspell) or ignoring cspell typo warnings via [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter).
