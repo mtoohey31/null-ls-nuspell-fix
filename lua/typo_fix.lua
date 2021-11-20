@@ -18,12 +18,12 @@ M.setup = function(lang)
 
   source.generator = {
     fn = function(params)
-      -- Produce the current word by matching alpha characters plus `-` before and after the cursor
+      -- Produce the current word by matching alpha characters before and after the cursor
       local row = params.content[params.row]
       local after = row:sub(params.col + 1)
       local before = row:sub(0, params.col + 1)
-      after = after:match("^[-%w]*")
-      before = before:match("[-%w]*$")
+      after = after:match("^%w*")
+      before = before:match("%w*$")
       if after == nil or before == nil then
         return {}
       end
