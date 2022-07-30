@@ -1,3 +1,5 @@
+> Archived because I'm not using Neovim anymore, so I can't maintain this.
+
 <!-- cspell:ignore nuspell nvim treesitter -->
 
 # null-ls-typo-fix
